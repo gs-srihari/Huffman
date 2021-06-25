@@ -146,6 +146,7 @@ def encode(input_file, output_file):
         f.write(string_new)
         f.close()
 
+
 def decode(input_file, output_file):
 	print("decoding ", input_file, output_file)
         f = open(input_file,"r")
